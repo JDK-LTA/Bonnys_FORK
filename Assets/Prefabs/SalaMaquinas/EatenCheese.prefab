@@ -1,0 +1,437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3231835019995568237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6168059433810637063}
+  - component: {fileID: 8303086012433465606}
+  - component: {fileID: 671485959458676552}
+  - component: {fileID: 381988820593880528}
+  m_Layer: 0
+  m_Name: EatenCheese
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6168059433810637063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3231835019995568237}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8303086012433465606
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3231835019995568237}
+  m_Mesh: {fileID: 2801555437839345303}
+--- !u!23 &671485959458676552
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3231835019995568237}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -1730110451621659464}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &381988820593880528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3231835019995568237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b26957667d5104ab632a10dc9da700, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  advancedMode: 1
+  voxelFilePath: D:/prototipo-3-las-supernenas/Lightvox/Assets/Vox Files/Stages/ElectricityRoom/EatenCheese.vox
+  voxelFileGUID: 
+  voxelFileObject: {fileID: 102900000, guid: 15a2a6f15a1becf49876fb71c3b00d37, type: 3}
+  voxelFileSubIndex: 0
+  fileType: 0
+  fileRefreshLastTimeTicks: 637472897507188185
+  dataVersion: 115
+  legacyVoxImport: 0
+  legacyAssetNaming: 0
+  importMode: 1
+  importFlags: 0
+  importScale: {x: 0.1, y: 0.1, z: 0.1}
+  importOffset: {x: 0, y: 0, z: 0}
+  localOffset: {x: -2, y: -0, z: -1}
+  enableFaceFlags: -1
+  disableData:
+    disableList: []
+    faceList: 
+  combineFaces: 1
+  ignoreCavity: 1
+  shareSameFace: 1
+  removeUnusedPalettes: 1
+  voxelStructure: {fileID: 0}
+  generateLightmapUVs: 1
+  generateLightmapUVsAngleError: 8
+  generateLightmapUVsAreaError: 15
+  generateLightmapUVsHardAngle: 88
+  generateLightmapUVsPackMargin: 4
+  generateTangents: 0
+  meshFaceVertexOffset: 0
+  generateMipMaps: 0
+  updateMeshRendererMaterials: 1
+  updateMaterialTexture: 1
+  loadFromVoxelFile: 0
+  materialData:
+  - materialList: []
+    name: 
+    transparent: 0
+    material:
+      renderingMode: 0
+      metallic: 0
+      smoothness: 0
+      alpha: 0
+      emission: {r: 0, g: 0, b: 0, a: 0}
+      emissionPower: 0
+  materialIndexes: 00000000
+  edit_importFoldout: 1
+  edit_objectFoldout: 1
+  edit_generateLightmapUVsAdvancedFoldout: 0
+  edit_helpEnable: 0
+  edit_configureMode: 0
+  edit_configureMaterialIndex: 0
+  edit_configureMaterialMainMode: 0
+  edit_configureMaterialSubMode: 0
+  edit_configureDisableMainMode: 0
+  edit_configureDisableSubMode: 0
+  edit_ConfigurePreviewMode: 0
+  edit_snapToHalfVoxel: 1
+  edit_enableMesh: []
+  mesh: {fileID: 2801555437839345303}
+  material: {fileID: 0}
+  materials:
+  - {fileID: -1730110451621659464}
+  atlasTexture: {fileID: 5636562291764061220}
+--- !u!21 &-1730110451621659464
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EatenCheese_0
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 5636562291764061220}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+--- !u!43 &2801555437839345303
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EatenCheese
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 150
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 100
+    localAABB:
+      m_Center: {x: 0, y: 0.1, z: 0}
+      m_Extent: {x: 0.2, y: 0.1, z: 0.1}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200000002000300040005000600040006000700080009000a0008000a000b000c000d000e000c000e000f00100011001200100012001300140015001600140016001700180019001a0018001a001b001c001d001e001c001e001f00200021002200200022002300240025002600240026002700280029002a0028002a002b002c002d002e002c002e002f00300031003200300032003300340035003600340036003700380039003a003b0038003a003c003d003e003f003c003e00400041004200430040004200440045004600470044004600480049004a004b0048004a004c004d004e004f004c004e00500051005200530050005200540055005600570054005600580059005a005b0058005a005c005d005e005f005c005e00600061006200630060006200
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 100
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 32
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 4000
+    _typelessdata: cdcccc3dcdcccc3d0000000000000000000000000000803f0000003f0000a03ec653fe3e288d2d3ecdcccc3d000000000000000000000000000000000000803f0000003f0000803e2e8d283f288d2d3ecdcc4c3e000000000000000000000000000000000000803f0000203f0000803e2e8d283f298da93ecdcc4c3ecdcccc3d0000000000000000000000000000803f0000203f0000a03ec653fe3e298da93ecdccccbdcdcccc3dcdcccc3d00000000000000000000803f0000003e0000003e0000803b2e8d293fcdccccbd00000000cdcccc3d00000000000000000000803f0000003e0000803d1e02803be229003fcdcccc3d00000000cdcccc3d00000000000000000000803f0000c03e0000803d308da73ee229003fcdcccc3dcdcccc3dcdcccc3d00000000000000000000803f0000c03e0000003e278da73e2e8d293fcdcc4cbecdcc4c3e0000000000000000000000000000803f0000003e0000c03e0000803b0000803bcdcc4cbe000000000000000000000000000000000000803f0000003e0000803e318da73e0000803bcdccccbd000000000000000000000000000000000000803f0000803e0000803e328da73e288d293ecdccccbdcdcc4c3e0000000000000000000000000000803f0000803e0000c03e7800803b288d293ecdccccbdcdcc4c3ecdcccc3d00000000000000000000803f0000003e0000103f0000803b7af0543fcdccccbdcdcccc3dcdcccc3d00000000000000000000803f0000003e0000003f2c8d293e7af0543f00000000cdcccc3dcdcccc3d00000000000000000000803f0000803e0000003f2c8d293ec4537e3f00000000cdcc4c3ecdcccc3d00000000000000000000803f0000803e0000103f0800803bc4537e3fcdcccc3dcdcccc3dcdccccbd000000000000803f000000000000003f0000803e308da93e2b8d2a3fcdcccc3dcdcccc3d00000000000000000000803f000000000000003f0000a03ec653fc3e2b8d2a3fcdcc4c3ecdcccc3d00000000000000000000803f000000000000203f0000a03ec653fc3e75f0533fcdcc4c3ecdcccc3dcdccccbd000000000000803f000000000000203f0000803e308da93e75f0533f00000000cdcccc3d00000000000000000000803f000000000000003f0000803ec653fe3e78f0543f00000000cdcccc3dcdcccc3d000000000000803f000000000000003f0000a03e2b8d283f76f0543fcdcccc3dcdcccc3dcdcccc3d000000000000803f000000000000203f0000a03e2d8d283fc3537e3fcdcccc3dcdcccc3d00000000000000000000803f000000000000203f0000803eca53fe3ec5537e3fcdccccbdcdcccc3dcdccccbd000000000000803f000000000000003f0000803e79f0533f298dab3ecdccccbdcdcccc3d00000000000000000000803f000000000000003f0000a03ec4537d3f298dab3e00000000cdcccc3d00000000000000000000803f000000000000203f0000a03ec4537d3fbf53fe3e00000000cdcccc3dcdccccbd000000000000803f000000000000203f0000803e79f0533fbf53fe3ecdccccbdcdcc4c3e00000000000000000000803f000000000000003e0000003f2d8d293f2d8d2a3fcdccccbdcdcc4c3ecdcccc3d000000000000803f000000000000003e0000103f76f0523f2d8d2a3f00000000cdcc4c3ecdcccc3d000000000000803f000000000000803e0000103f76f0523f7af0533f00000000cdcc4c3e00000000000000000000803f000000000000803e0000003f2e8d293f7af0533fcdcc4cbecdcc4c3ecdccccbd000000000000803f000000000000003e0000003f76f0533fdf29003fcdcc4cbecdcc4c3e00000000000000000000803f000000000000003e0000103fbf537d3fdf29003fcdccccbdcdcc4c3e00000000000000000000803f000000000000803e0000103fbf537d3f2d8d293fcdccccbdcdcc4c3ecdccccbd000000000000803f000000000000803e0000003f76f0533f2d8d293fcdcc4c3e00000000cdccccbd0000803f00000000000000000000003f0000803e2e8d283f298dab3ecdcc4c3ecdcccc3dcdccccbd0000803f00000000000000000000203f0000803e2e8d283fbf53fe3ecdcc4c3ecdcccc3d000000000000803f00000000000000000000203f0000a03ec653fe3ebf53fe3ecdcc4c3e00000000000000000000803f00000000000000000000003f0000a03ec653fe3e298dab3ecdcccc3d00000000000000000000803f00000000000000000000003f0000803e2d8d283fdf29003fcdcccc3dcdcccc3d000000000000803f00000000000000000000203f0000803e2d8d283f2b8d293fcdcccc3dcdcccc3dcdcccc3d0000803f00000000000000000000203f0000a03ec653fe3e2b8d293fcdcccc3d00000000cdcccc3d0000803f00000000000000000000003f0000a03ec653fe3edf29003f0000000000000000cdccccbd0000803f00000000000000000000003f0000803ec653fc3edf29003f00000000cdcccc3dcdccccbd0000803f00000000000000000000203f0000803ec653fc3e2b8d293f00000000cdcccc3d000000000000803f00000000000000000000203f0000a03e308da93e2b8d293f0000000000000000000000000000803f00000000000000000000003f0000a03e308da93edf29003f00000000cdcccc3d000000000000803f00000000000000000000003e0000003f2d8d283f2b8d2a3f00000000cdcc4c3e000000000000803f00000000000000000000803e0000003f2d8d283f76f0533f00000000cdcc4c3ecdcccc3d0000803f00000000000000000000803e0000103fc653fe3e76f0533f00000000cdcccc3dcdcccc3d0000803f00000000000000000000003e0000103fc653fe3e2b8d2a3fcdccccbdcdcccc3dcdccccbd0000803f00000000000000000000003e0000003f79f0523f298dab3ecdccccbdcdcc4c3ecdccccbd0000803f00000000000000000000803e0000003f79f0523fbf53fe3ecdccccbdcdcc4c3e000000000000803f00000000000000000000803e0000103f2e8d293fbf53fe3ecdccccbdcdcccc3d000000000000803f00000000000000000000003e0000103f2e8d293f298dab3ecdcccc3dcdcccc3dcdccccbd000080bf00000000000000000000203f0000803e308da93ebf53fe3ecdcccc3d00000000cdccccbd000080bf00000000000000000000003f0000803e308da93e298dab3ecdcccc3d0000000000000000000080bf00000000000000000000003f0000a03ec653fc3e298dab3ecdcccc3dcdcccc3d00000000000080bf00000000000000000000203f0000a03ec653fc3ebf53fe3ecdccccbdcdcc4c3e00000000000080bf00000000000000000000603f0000803d338d283f0000803bcdccccbd0000000000000000000080bf00000000000000000000203f0000803dcb537b3f1d01803bcdccccbd00000000cdcccc3d000080bf00000000000000000000203f0000003ecb537b3f2f8d293ecdccccbdcdcc4c3ecdcccc3d000080bf00000000000000000000603f0000003e328d283f268d293ecdcc4cbecdcc4c3ecdccccbd000080bf00000000000000000000603f0000803d328da93e0000803bcdcc4cbe00000000cdccccbd000080bf00000000000000000000203f0000803d318d273f0000803bcdcc4cbe0000000000000000000080bf00000000000000000000203f0000003e328d273f278d293ecdcc4cbecdcc4c3e00000000000080bf00000000000000000000603f0000003e348da93e278d293ecdcccc3d000000000000000000000000000080bf000000000000003f0000a03e308da93e75f0543fcdcccc3d00000000cdccccbd00000000000080bf000000000000003f0000803ec653fc3e75f0543fcdcc4c3e00000000cdccccbd00000000000080bf000000000000203f0000803ec653fc3ec0537e3fcdcc4c3e000000000000000000000000000080bf000000000000203f0000a03e308da93ec0537e3fcdccccbd00000000cdcccc3d00000000000080bf000000000000003e0000003e0000803b7af0533fcdccccbd000000000000000000000000000080bf000000000000003e0000803d1c02803b2e8d2a3fcdcccc3d000000000000000000000000000080bf000000000000c03e0000803d308da73e2e8d2a3fcdcccc3d00000000cdcccc3d00000000000080bf000000000000c03e0000003e278da73e7af0533fcdcc4cbe000000000000000000000000000080bf000000000000003e0000003e0000803b2c8da93ecdcc4cbe00000000cdccccbd00000000000080bf000000000000003e0000803d1c02803b288d2d3e0000000000000000cdccccbd00000000000080bf000000000000c03e0000803d308da73e288d2d3e00000000000000000000000000000000000080bf000000000000c03e0000003e278da73e2c8da93ecdcc4c3ecdcccc3dcdccccbd0000000000000000000080bf0000203f0000a03e79f0523f298da93ecdcc4c3e00000000cdccccbd0000000000000000000080bf0000203f0000803e2e8d293f298da93ecdcccc3d00000000cdccccbd0000000000000000000080bf0000003f0000803e2e8d293f288d2d3ecdcccc3dcdcccc3dcdccccbd0000000000000000000080bf0000003f0000a03e79f0523f288d2d3ecdcccc3dcdcccc3d000000000000000000000000000080bf0000203f0000a03e76f0523f2d8d293fcdcccc3d00000000000000000000000000000000000080bf0000203f0000803e2e8d293f2d8d293f0000000000000000000000000000000000000000000080bf0000003f0000803e2d8d293fdf29003f00000000cdcccc3d000000000000000000000000000080bf0000003f0000a03e76f0523fdf29003f00000000cdcccc3dcdccccbd0000000000000000000080bf0000c03e0000003e0000803bc453fe3e0000000000000000cdccccbd0000000000000000000080bf0000c03e0000803d1c02803b2c8dab3ecdcc4cbe00000000cdccccbd0000000000000000000080bf0000003e0000803d308da73e2c8dab3ecdcc4cbecdcccc3dcdccccbd0000000000000000000080bf0000003e0000003e278da73ec453fe3e00000000cdcc4c3e000000000000000000000000000080bf0000803e0000103fc653fc3e298da93e00000000cdcccc3d000000000000000000000000000080bf0000803e0000003f308da93e298da93ecdccccbdcdcccc3d000000000000000000000000000080bf0000003e0000003f308da93e288d2d3ecdccccbdcdcc4c3e000000000000000000000000000080bf0000003e0000103fc653fc3e288d2d3ecdccccbdcdcc4c3ecdccccbd0000000000000000000080bf0000803e0000103fc2537d3f338da93ecdccccbdcdcccc3dcdccccbd0000000000000000000080bf0000803e0000003f79f0533f2e8da93ecdcc4cbecdcccc3dcdccccbd0000000000000000000080bf0000003e0000003f7bf0533f288d2d3ecdcc4cbecdcc4c3ecdccccbd0000000000000000000080bf0000003e0000103fc4537d3f318d2d3e
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.1, z: 0}
+    m_Extent: {x: 0.2, y: 0.1, z: 0.1}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!28 &5636562291764061220
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EatenCheese
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 2
+  m_Width: 8
+  m_Height: 16
+  m_CompleteImageSize: 512
+  m_TextureFormat: 4
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IgnoreMasterTextureLimit: 0
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  image data: 512
+  _typelessdata: dda52dffdda52dfff7c242fff7c242ffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dfff7c242fff7c242ffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dfff7c242fff7c242ffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dfff7c242fff7c242fff7c242ffeab438ffdda52dffdda52dffdda52dffdda52dfff7c242fff7c242fff7c242fff7c242ffe6af34ffdda52dffdda52dffdda52dfff7c242fff7c242fff7c242fff7c242ffeab438ffdda52dffdda52dffdda52dffeab438fff7c242fff7c242fff7c242ffeab438ffdda52dffdda52dffdda52dffdda52dffeab438fff7c242fff7c242ffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffeab438ffeab438ffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dff000000ff000000ff000000ff000000ffdda52dffdda52dffdda52dffdda52dff000000ff000000ff000000ff000000ffdda52dffdda52dffeab438ffeab438ffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dfff7c242fff7c242ffdda52dffdda52dffdda52dffdda52dffdda52dffdda52dfff7c242fff7c242ffdda52dffdda52dffdda52dffdda52dff
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
